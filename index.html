@@ -12,22 +12,22 @@
 
         <img src="image.jpg", width="600", height="400", alt="Описание изображения", controls/>
 
-        <form action="submit.php">
-            <input placeholder="Введите имя", type="text"/>
-            <button>Отправить</button>
+        <form action="submit.php", method="POST", target="_blank">
+            <input width="300", height="200", placeholder="Введите имя", type="text"/>
+            <button type="submit">Отправить</button>
         </form>
 
         <video src="video.mp4", loop></video>
 
         <audio autoplay, src="audio.mp3", controls></audio>
 
-        <table border="1">
+        <table border="1", cellpadding="5">
             <tr>
                 <td>Ячейка 1</td>
                 <td>Ячейка 2</td>
             </tr>
         </table>
 
-        <iframe></iframe>
+        <iframe title="Пример страницы"></iframe>
     </body>
 </html>
